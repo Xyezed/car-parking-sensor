@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "author": "Xyezed Store",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 77.4, "left": 9, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -61.2, "left": 90.2, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -61.2,
+      "left": 128.6,
+      "attrs": { "color": "yellow" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -61.2,
+      "left": 167,
+      "attrs": { "color": "limegreen" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 14.4,
+      "left": 85.85,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 14.4,
+      "left": 124.25,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 14.4,
+      "left": 162.65,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": -75.3,
+      "left": 226.3,
+      "attrs": { "distance": "2" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -45.6,
+      "left": 30.6,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "led1:C", "uno:GND.1", "black", [ "v86.4", "h10" ] ],
+    [ "led2:C", "uno:GND.1", "black", [ "h-9.2", "v86.4", "h-9.9" ] ],
+    [ "led3:C", "uno:GND.1", "black", [ "v86.4", "h-57.2" ] ],
+    [ "led1:A", "r1:1", "green", [ "v0" ] ],
+    [ "led2:A", "r2:1", "green", [ "v0" ] ],
+    [ "led3:A", "r3:1", "green", [ "v0" ] ],
+    [ "r1:2", "uno:13", "violet", [ "h0", "v8.4", "h19.2" ] ],
+    [ "r2:2", "uno:12", "limegreen", [ "h-9.6", "v-1.2" ] ],
+    [ "r3:2", "uno:11", "cyan", [ "h0", "v8.4", "h-38.4" ] ],
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v268.8", "h-124.8" ] ],
+    [ "ultrasonic1:GND", "uno:GND.2", "black", [ "v278.4", "h-154.8" ] ],
+    [ "ultrasonic1:TRIG", "uno:10", "blue", [ "v28.8", "h-145.1" ] ],
+    [ "ultrasonic1:ECHO", "uno:9", "green", [ "v57.6", "h-144.8" ] ],
+    [ "bz1:1", "uno:GND.1", "black", [ "v38.4", "h57.6" ] ],
+    [ "bz1:2", "uno:8", "#8f4814", [ "v76.8", "h114.8" ] ]
+  ],
+  "dependencies": {}
+}
