@@ -34,4 +34,5 @@ The system uses an ultrasonic sensor (such as the HC-SR04) to measure the distan
 - Click the green "Play" button to start the simulation. (Klik tombol hijau "Play" untuk memulai simulasi.)
 - Use the virtual object to test distance changes in real-time. (Gunakan objek virtual untuk menguji perubahan jarak secara real-time.)
 
-![Circuit Diagram](https://github.com/user-attachments/assets/77f6f224-896d-4cc6-b014-77b58eea4638)
+![Circuit Diagram](https://github.com/user-attachments/assets/6b550406-0daa-4674-a6f3-b7f670b2e228)
+
