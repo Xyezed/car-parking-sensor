@@ -1,3 +1,4 @@
+
 # Arduino-Based Ultrasonic Car Parking Distance Sensor
 
 # 📄 Description: (Deskripsi)
@@ -32,3 +33,5 @@ The system uses an ultrasonic sensor (such as the HC-SR04) to measure the distan
 - Replace the default diagram code with diagram.json inside the file (ganti kode diagram dengan kode yang ada didalam file diagram.json)
 - Click the green "Play" button to start the simulation. (Klik tombol hijau "Play" untuk memulai simulasi.)
 - Use the virtual object to test distance changes in real-time. (Gunakan objek virtual untuk menguji perubahan jarak secara real-time.)
+
+![Circuit Diagram](https://github.com/user-attachments/assets/77f6f224-896d-4cc6-b014-77b58eea4638)
