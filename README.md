@@ -22,7 +22,7 @@ This project implements an Arduino-based ultrasonic distance sensor system desig
 - Depending on the distance, the system can:
   - Trigger a buzzer if an object is too close. (Menyalakan buzzer jika objek terlalu dekat.)
 
-#☁️ Steps to Upload and Simulate on Wokwi: (Cara Upload Ke Wokwi dan Simulasikan ke Wokwi)
+# ☁️ Steps to Upload and Simulate on Wokwi: (Cara Upload Ke Wokwi dan Simulasikan ke Wokwi)
 
 - Go to https://wokwi.com. (Buka situs https://wokwi.com.)
 - Click "Start New Project" > Choose Arduino UNO. (Klik "Start New Project" > Pilih Arduino UNO.)
