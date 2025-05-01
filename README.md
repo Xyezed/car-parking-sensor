@@ -3,8 +3,7 @@
 
 # 📄 Description: (Deskripsi)
 
-This project implements an Arduino-based ultrasonic distance sensor system designed to assist car parking by detecting obstacles and measuring the distance between the vehicle and objects behind it.
-The system uses an ultrasonic sensor (such as the HC-SR04) to measure the distance and display the results via an LED indicator.
+This project implements an Arduino-based ultrasonic distance sensor system designed to assist car parking by detecting obstacles and measuring the distance between the vehicle and objects behind it. The system uses an ultrasonic sensor (such as the HC-SR04) to measure the distance and display the results via an LED indicator.
 
 (Proyek ini menerapkan sistem sensor jarak ultrasonik berbasis Arduino yang dirancang untuk membantu parkir mobil dengan mendeteksi rintangan dan mengukur jarak antara kendaraan dan objek di belakangnya. Sistem ini menggunakan sensor ultrasonik (seperti HC-SR04) untuk mengukur jarak dan menampilkan hasilnya melalui indikator LED.)
 
@@ -29,10 +28,11 @@ The system uses an ultrasonic sensor (such as the HC-SR04) to measure the distan
 - Click "Start New Project" > Choose Arduino UNO. (Klik "Start New Project" > Pilih Arduino UNO.)
 - In the simulation environment: (Di dalam lingkungan simulasi:)
 - Add components: Ultrasonic Sensor (HC-SR04), LED and Buzzer . (Tambahkan komponen Ultrasonic Sensor, Led dan Buzzer.)
-- Replace the default sketch.ino code with your Arduino sketch. (Ganti kode default dengan kode Arduino milikmu.)
+- Replace the default sketch.ino code with the code inside sketch.ino. (Ganti kode default dengan kode Arduino didalam file sketch.ino.)
 - Replace the default diagram code with diagram.json inside the file (ganti kode diagram dengan kode yang ada didalam file diagram.json)
 - Click the green "Play" button to start the simulation. (Klik tombol hijau "Play" untuk memulai simulasi.)
 - Use the virtual object to test distance changes in real-time. (Gunakan objek virtual untuk menguji perubahan jarak secara real-time.)
 
-![Circuit Diagram](https://github.com/user-attachments/assets/6b550406-0daa-4674-a6f3-b7f670b2e228)
+Here's the image of the circuit diagram (ini gambar diagram sirkuitnya) : 
+    ![Circuit Diagram](https://github.com/user-attachments/assets/6b550406-0daa-4674-a6f3-b7f670b2e228)
 
